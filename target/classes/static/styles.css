@@ -1,0 +1,126 @@
+/* Game Styles */
+body {
+    background-color: #f8f9fa;
+}
+
+.card-display {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-btn {
+    margin: 5px;
+    min-width: 60px;
+}
+
+.player-hand {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.trick-container {
+    min-height: 120px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.card-played {
+    margin: 8px 0;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+.players-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.player-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 130px;
+    background-color: #f8f9fa;
+}
+
+.current-player {
+    border: 2px solid #ffc107;
+    background-color: #fff8e1;
+}
+
+.player-self {
+    border: 2px solid #007bff;
+    background-color: #e3f2fd;
+}
+
+.caller-team {
+    border-left: 5px solid #28a745;
+}
+
+.opponent-team {
+    border-left: 5px solid #dc3545;
+}
+
+.player-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.player-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+/* Card colors */
+.hearts, .diamonds {
+    color: #dc3545;
+}
+
+.spades, .clubs {
+    color: #212529;
+}
+
+/* Trump cards */
+.trump {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Friend card selection */
+.trump-selection, .friend-selection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.trump-btn, .friend-btn {
+    min-width: 60px;
+}
+
+.friend-btn.selected {
+    border: 2px solid #198754;
+    background-color: #d1e7dd;
+}
+
+/* Game log */
+.game-log {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+.log-entry {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
