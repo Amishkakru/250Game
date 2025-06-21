@@ -1,6 +1,6 @@
 # 250Game 🃏
 
-A personal implementation of the classic Indian card game "250" (Do-Sau-Pachaas) built using Java. This project models the multiplayer logic and gameplay mechanics of the trick-taking game often played with 5 players in many Indian households.
+A personal implementation of the classic Indian card game "250" (Dhai-Sau) built using Java. This project models the multiplayer logic and gameplay mechanics of the trick-taking game often played with 5 players in many Indian households.
 
 ---
 
