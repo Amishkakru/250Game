@@ -6,9 +6,9 @@ A personal implementation of the classic Indian card game "250" (Dhai-Sau) built
 
 ## 📌 Overview
 
-This is a **Java-based card game project** developed for learning purposes. The goal is to simulate the gameplay of 250 with proper card dealing, team management, bidding, and trick-taking mechanisms.
+This is a **Kotlin-based card game project** developed for learning purposes. The goal is to simulate the gameplay of 250 with proper card dealing, team management, bidding, and trick-taking mechanisms.
 
-- Developed using **Java** and **Spring Boot** (for the server-side)
+- Developed using **Kotlin** and **Spring Boot** (for the server-side)
 - GUI made with **Swing** for client-side gameplay
 - Supports multiplayer game flow
 - Logic based on real-life card rules of 250
